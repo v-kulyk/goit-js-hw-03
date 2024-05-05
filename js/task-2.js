@@ -1,15 +1,15 @@
 function makeArray(firstArray, secondArray, maxLength) {
-    let newArray = firstArray.slice();
+  let newArray = firstArray.slice();
 
-    for (let i = 0; i < secondArray.length; i++) {
-        newArray.push(secondArray[i]);
-    }
+  for (let i = 0; i < secondArray.length; i++) {
+    newArray.push(secondArray[i]);
+  }
 
-    if (newArray.length > maxLength) {
-        newArray = newArray.slice(0, maxLength);
-    }
+  if (newArray.length > maxLength) {
+    newArray = newArray.slice(0, maxLength);
+  }
 
-    return newArray;
+  return newArray;
 }
 
 // Перевірка роботи функції

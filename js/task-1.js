@@ -1,7 +1,7 @@
 function slugify(title) {
-    let slug = title.toLowerCase();
-    slug = slug.replace(/\s+/g, '-');
-    return slug;
+  let slug = title.toLowerCase();
+  slug = slug.replace(/\s+/g, "-");
+  return slug;
 }
 
 // Перевірка роботи функції
